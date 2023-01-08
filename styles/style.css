@@ -53,6 +53,20 @@ p{
 }
 /*Fin Texto*/
 
+/*Inicio Carousel*/
+#carouselExampleControls{
+    left: 0;right: 0;
+    margin: auto;
+    padding-bottom: 10px;
+    width: 50%;
+    height: 50%;
+}
+
+body{
+    background-color: black;
+}
+/*Fin Carousel*/
+
 /*Inicio Formulario*/
 form{
     color: white;
