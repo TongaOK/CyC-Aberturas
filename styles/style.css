@@ -1,0 +1,170 @@
+/*Inicio Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+/*Fin Reset*/
+
+/*Inicio Menu Navegacion*/
+.menu{
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.menu a.active {
+    background-color: rgb(143, 22, 1);
+    color: white;
+}
+/*Fin Menu Navegacion*/
+
+/*Inicio Texto*/
+h2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+}
+
+.bienvenida{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*Fin Texto*/
+
+/*Inicio Formulario*/
+form{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+}
+
+
+input{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+textarea{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.sexo{
+    display: inline-block;
+}
+
+.boton{
+    color: rgb(0, 0, 0);
+}
+/*Fin Formulario*/
+
+/*Inicio Galeria*/
+.galeria{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: repeat (10, 200px);
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.item{
+    border: 2px solid rgb(143, 22, 1);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.item1{
+    background-image: url(../imagenes/maquinas1.JPG);
+}
+
+.item2{
+    background-image: url(../imagenes/materiales1.JPG);
+}
+
+.item3{
+    background-image: url(../imagenes/materiales2.JPG);
+}
+
+.item4{
+    background-image: url(../imagenes/picaporte1.JPG);
+}
+
+.item5{
+    background-image: url(../imagenes/picaporte2.JPG);
+}
+
+.item6{
+    background-image: url(../imagenes/puertas1.JPG);
+}
+
+.item7{
+    background-image: url(../imagenes/puertas2.JPG);
+}
+
+.item8{
+    background-image: url(../imagenes/puertas3.JPG);
+}
+
+.item9{
+    background-image: url(../imagenes/ventanas1.JPG);
+}
+
+.item10{
+    background-image: url(../imagenes/ventanas2.JPG);
+}
+/*Fin Galeria*/
+
+/*Inicio Footer*/
+.logo{
+    overflow: hidden;
+    position: fixed;
+    left: 0;right: 0;
+    margin: auto;
+    padding-bottom: 10px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.0);
+}
+/*Fin Footer*/
+
+@media only screen and (min-width: 480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 200px);
+    }
+}
