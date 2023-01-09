@@ -22,17 +22,36 @@
 </head>
 <body>
     <!--Inicio Menu Navegacion-->
-    <header class="menu">
-        <a href="../index.html">Inicio</a>
-        <a href="./quienessomos.html">¿Quienes Somos?</a>
-        <a href="./galeria.html">Galeria</a>
-        <a class="active" href="./historia.html">Historia</a>
-        <a href="./contacto.html">Contacto</a>
-    </header>
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="../index.html"><img src="../imagenes/CyCLogo2.png" class="img-fluid" width="50px" height="50px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./quienessomos.html">¿Quienes Somos?</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="../pages/historia.html">Historia <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+          </ul>
+        </div>
+      </nav><br>
     <!--Fin Menu Navegacion-->
 
     <!--Inicio Texto-->
-    <section>
+    <br><section>
         <h2>Nuestra Historia</h2><br>
         <p>C&C Aberturas fue fundada en 19xx por Juan Carlos "Coco" Castillo, comenzo como un pequeño emprendimiento personal.</p>
         <p>Luego preparo a sus dos hijos en el rubro, Juan Marcelo Castillo y Dario Castillo, y eventualmente dejo la empresa a su cargo.</p>

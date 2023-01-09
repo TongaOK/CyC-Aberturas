@@ -3,32 +3,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
 }
 /*Fin Reset*/
 
 /*Inicio Menu Navegacion*/
-.menu{
-    overflow: hidden;
+#navbar {
+    background-color: black;
 }
 
-.menu a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.menu a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.menu a.active {
+#navbar li:hover {
     background-color: rgb(143, 22, 1);
+}
+
+#navbar a {
     color: white;
+}
+
+#navbar li {
+    padding: 5px;
+    text-transform: uppercase;
 }
 /*Fin Menu Navegacion*/
 
@@ -163,8 +156,8 @@ textarea{
     margin: auto;
     padding-bottom: 10px;
     bottom: 0;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background: rgba(0, 0, 0, 0.0);
 }
 /*Fin Footer*/
