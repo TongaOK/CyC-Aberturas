@@ -92,61 +92,43 @@ textarea{
 /*Fin Formulario*/
 
 /*Inicio Galeria*/
-.galeria{
+.container {
+    padding: 5px;  
+}
+
+.imagen {
+    display: block;
     width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row: repeat (10, 200px);
-    padding: 10px;
-    grid-gap: 10px;
 }
 
-.item{
-    border: 2px solid rgb(143, 22, 1);
-    height: 200px;
-    background-size: cover;
-    background-position: center;
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(143, 22, 1, 0.226);
 }
 
-.item1{
-    background-image: url(../imagenes/maquinas1.JPG);
+.caption {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
 }
 
-.item2{
-    background-image: url(../imagenes/materiales1.JPG);
+.thumbnail:hover {
+    transform: translateY(-4px);
 }
 
-.item3{
-    background-image: url(../imagenes/materiales2.JPG);
-}
-
-.item4{
-    background-image: url(../imagenes/picaporte1.JPG);
-}
-
-.item5{
-    background-image: url(../imagenes/picaporte2.JPG);
-}
-
-.item6{
-    background-image: url(../imagenes/puertas1.JPG);
-}
-
-.item7{
-    background-image: url(../imagenes/puertas2.JPG);
-}
-
-.item8{
-    background-image: url(../imagenes/puertas3.JPG);
-}
-
-.item9{
-    background-image: url(../imagenes/ventanas1.JPG);
-}
-
-.item10{
-    background-image: url(../imagenes/ventanas2.JPG);
+.imagen-container:hover .overlay{
+    opacity: 1;
 }
 /*Fin Galeria*/
 
@@ -164,6 +146,7 @@ textarea{
 }
 /*Fin Footer*/
 
+/*
 @media only screen and (min-width: 480px){
     .galeria{
         grid-template-columns: 1fr 1fr;
