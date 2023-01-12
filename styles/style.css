@@ -145,18 +145,3 @@ textarea{
     background: rgba(0, 0, 0, 0.0);
 }
 /*Fin Footer*/
-
-/*
-@media only screen and (min-width: 480px){
-    .galeria{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 200px);
-    }
-}
-
-@media only screen and (min-width: 768px){
-    .galeria{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(3, 200px);
-    }
-}
