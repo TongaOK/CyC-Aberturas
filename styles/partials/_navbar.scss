@@ -1,0 +1,19 @@
+/*Inicio Menu Navegacion*/
+#navbar {
+    background-color: black;
+
+    li:hover {
+        background-color: $maincolor;
+    }
+
+    a {
+        color: white;
+        font-family: $monserratfont;
+    }
+
+    li {
+        padding: 5px;
+        text-transform: uppercase;
+        }
+}
+/*Fin Menu Navegacion*/

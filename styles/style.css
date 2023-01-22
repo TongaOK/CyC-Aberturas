@@ -1,147 +1,135 @@
 /*Inicio Reset*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-/*Fin Reset*/
 
+/*Fin Reset*/
 /*Inicio Menu Navegacion*/
 #navbar {
-    background-color: black;
+  background-color: black;
 }
-
 #navbar li:hover {
-    background-color: rgb(143, 22, 1);
+  background-color: rgb(143, 22, 1);
 }
-
 #navbar a {
-    color: white;
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
-
 #navbar li {
-    padding: 5px;
-    text-transform: uppercase;
+  padding: 5px;
+  text-transform: uppercase;
 }
+
 /*Fin Menu Navegacion*/
-
 /*Inicio Texto*/
-h2{
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    padding: 20px;
-    text-align: center;
-    
+h2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+  text-align: center;
 }
 
-.bienvenida{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
+.bienvenida {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
 }
 
-p{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
+p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
 /*Fin Texto*/
-
 /*Inicio Carousel*/
-#carouselExampleControls{
-    left: 0;right: 0;
-    margin: auto;
-    padding-bottom: 10px;
-    width: 50%;
-    height: 50%;
+body {
+  background-color: black;
+}
+body #carouselExampleControls {
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 50%;
+  height: 50%;
 }
 
-body{
-    background-color: black;
-}
 /*Fin Carousel*/
-
 /*Inicio Formulario*/
-form{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 20px;
+form {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 20px;
+}
+form input {
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+form textarea {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+form .sexo {
+  display: inline-block;
+}
+form .boton {
+  color: rgb(0, 0, 0);
 }
 
-
-input{
-    color: rgb(0, 0, 0);
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(255, 255, 255);
-}
-
-textarea{
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    background-color: white;
-}
-
-.sexo{
-    display: inline-block;
-}
-
-.boton{
-    color: rgb(0, 0, 0);
-}
 /*Fin Formulario*/
-
 /*Inicio Galeria*/
 .container {
-    padding: 5px;  
+  padding: 5px;
+}
+.container .thumbnail:hover {
+  transform: translateY(-4px);
+}
+.container .thumbnail:hover .imagen-container:hover .overlay {
+  opacity: 1;
+}
+.container .imagen {
+  display: block;
+  width: 100%;
+}
+.container .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(143, 22, 1, 0.226);
+}
+.container .overlay .caption {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.imagen {
-    display: block;
-    width: 100%;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgba(143, 22, 1, 0.226);
-}
-
-.caption {
-    font-size: 2rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-
-.thumbnail:hover {
-    transform: translateY(-4px);
-}
-
-.imagen-container:hover .overlay{
-    opacity: 1;
-}
 /*Fin Galeria*/
-
 /*Inicio Footer*/
-.logo{
-    overflow: hidden;
-    position: fixed;
-    left: 0;right: 0;
-    margin: auto;
-    padding-bottom: 10px;
-    bottom: 0;
-    width: 50px;
-    height: 50px;
-    background: rgba(0, 0, 0, 0.0);
+.logo {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-bottom: 10px;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0);
 }
-/*Fin Footer*/
+
+/*Fin Footer*//*# sourceMappingURL=style.css.map */

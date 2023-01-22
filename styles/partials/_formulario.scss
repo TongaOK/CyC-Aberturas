@@ -1,0 +1,27 @@
+/*Inicio Formulario*/
+form{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+
+    input{
+        color: rgb(0, 0, 0);
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(255, 255, 255);
+    }
+
+    textarea{
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        background-color: white;
+    }
+
+    .sexo{
+        display: inline-block;
+    }
+
+    .boton{
+        color: rgb(0, 0, 0);
+    }
+}
+/*Fin Formulario*/
