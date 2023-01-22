@@ -1,0 +1,33 @@
+@mixin tamanos($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.box_container {
+    margin-bottom: 3rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    @for $item from 1 through 3 {
+        .box#{$item} {
+            animation-delay: $item*0.5s;
+        }
+    }
+
+    .box {
+        background-color: $maincolor;
+        @include tamanos(200px, 200px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $monserratfont;
+        font-size: xx-large;
+    }
+}
+
+
+
+

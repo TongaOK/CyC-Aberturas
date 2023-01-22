@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(29, 26, 26);
+}
+
 /*Fin Reset*/
 /*Inicio Menu Navegacion*/
 #navbar {
@@ -24,15 +28,10 @@
 
 /*Fin Menu Navegacion*/
 /*Inicio Texto*/
-h2 {
+.bienvenido, h2 {
   color: white;
   font-family: "Raleway", sans-serif;
-  padding: 20px;
-  text-align: center;
-}
-
-.bienvenida {
-  font-family: "Raleway", sans-serif;
+  padding: 40px;
   text-align: center;
 }
 
@@ -43,18 +42,19 @@ p {
   padding-left: 20px;
   padding-right: 20px;
 }
+@media screen and (max-width: 768px) {
+  p {
+    text-align: center;
+  }
+}
 
 /*Fin Texto*/
 /*Inicio Carousel*/
-body {
-  background-color: black;
-}
-body #carouselExampleControls {
+#carouselExampleControls {
   left: 0;
   right: 0;
   margin: auto;
-  width: 50%;
-  height: 50%;
+  width: 60%;
 }
 
 /*Fin Carousel*/
@@ -119,17 +119,67 @@ form .boton {
 
 /*Fin Galeria*/
 /*Inicio Footer*/
-.logo {
-  overflow: hidden;
+.redes {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
   position: fixed;
+  bottom: 0;
+  margin: auto;
   left: 0;
   right: 0;
-  margin: auto;
-  padding-bottom: 10px;
-  bottom: 0;
-  width: 50px;
-  height: 50px;
-  background: rgba(0, 0, 0, 0);
+  padding-block: 5px;
+}
+.redes .iconos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.redes .iconos .fa-brands {
+  padding: 10px;
 }
 
-/*Fin Footer*//*# sourceMappingURL=style.css.map */
+.fa-facebook {
+  background-color: blue;
+}
+
+.fa-instagram {
+  background-color: rgb(211, 35, 94);
+}
+
+.fa-whatsapp {
+  background-color: green;
+}
+
+/*Fin Footer*/
+.box_container {
+  margin-bottom: 3rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.box_container .box1 {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.box_container .box2 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.box_container .box3 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+.box_container .box {
+  background-color: rgb(143, 22, 1);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: xx-large;
+}/*# sourceMappingURL=style.css.map */

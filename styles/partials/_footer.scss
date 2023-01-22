@@ -1,0 +1,42 @@
+/*Inicio Footer*/
+.redes {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    left: 0; right: 0;
+    padding-block: 5px;
+
+    .iconos {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .fa-brands{
+            padding: 10px;
+            }
+        
+        
+        }
+    
+
+    }
+
+
+$redes: (
+    facebook: blue,
+    instagram: rgb(211, 35, 94),
+    whatsapp: green,
+);
+
+@each $redsocial, $color in $redes {
+    .fa-#{$redsocial} {
+        background-color: $color;
+    }
+};
+
+
+/*Fin Footer*/
