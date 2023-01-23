@@ -27,5 +27,8 @@ p{
     @include tablet {
         text-align: center;
     }
+    @include mobile {
+        text-align: center;
+    }
 }
 /*Fin Texto*/

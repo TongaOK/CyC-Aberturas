@@ -47,6 +47,11 @@ p {
     text-align: center;
   }
 }
+@media screen and (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+}
 
 /*Fin Texto*/
 /*Inicio Carousel*/
@@ -55,6 +60,16 @@ p {
   right: 0;
   margin: auto;
   width: 60%;
+}
+@media screen and (max-width: 768px) {
+  #carouselExampleControls {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 576px) {
+  #carouselExampleControls {
+    width: 80%;
+  }
 }
 
 /*Fin Carousel*/
@@ -182,4 +197,18 @@ form .boton {
   align-items: center;
   font-family: "Montserrat", sans-serif;
   font-size: xx-large;
+}
+@media screen and (max-width: 768px) {
+  .box_container .box {
+    width: 150px;
+    height: 150px;
+    font-size: x-large;
+  }
+}
+@media screen and (max-width: 576px) {
+  .box_container .box {
+    width: 100px;
+    height: 100px;
+    font-size: large;
+  }
 }/*# sourceMappingURL=style.css.map */

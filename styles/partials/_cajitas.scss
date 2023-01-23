@@ -25,6 +25,15 @@
         align-items: center;
         font-family: $monserratfont;
         font-size: xx-large;
+
+        @include tablet {
+            @include tamanos(150px, 150px);
+            font-size: x-large;
+        }
+        @include mobile {
+            @include tamanos(100px, 100px);
+            font-size: large;
+        }
     }
 }
 

@@ -4,5 +4,11 @@
         margin: auto;
         width: 60%;
         
+        @include tablet {
+                width: 70%;
+        }
+        @include mobile {
+                width: 80%;
+        }
 }
 /*Fin Carousel*/
