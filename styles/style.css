@@ -111,11 +111,6 @@ form .boton {
   display: block;
   width: 100%;
 }
-@media screen and (max-width: 576px) {
-  .container .imagen {
-    width: 90%;
-  }
-}
 .container .overlay {
   position: absolute;
   top: 0;

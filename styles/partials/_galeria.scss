@@ -12,10 +12,6 @@
     .imagen {
         display: block;
         width: 100%;
-        
-        @include mobile {
-            width: 90%;
-        }
     }
     .overlay {
         position: absolute;
