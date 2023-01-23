@@ -12,6 +12,10 @@
     .imagen {
         display: block;
         width: 100%;
+        
+        @include mobile {
+            width: 90%;
+        }
     }
     .overlay {
         position: absolute;
@@ -32,6 +36,13 @@
                 left: 50%;
                 transform: translate(-50%,-50%);
                 text-align: center;
+                
+                @include tablet {
+                    font-size: 1rem;
+                }
+                @include netbook {
+                    font-size: 1rem;
+                }
         }
         
     }

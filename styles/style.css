@@ -111,6 +111,11 @@ form .boton {
   display: block;
   width: 100%;
 }
+@media screen and (max-width: 576px) {
+  .container .imagen {
+    width: 90%;
+  }
+}
 .container .overlay {
   position: absolute;
   top: 0;
@@ -130,6 +135,16 @@ form .boton {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .container .overlay .caption {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container .overlay .caption {
+    font-size: 1rem;
+  }
 }
 
 /*Fin Galeria*/

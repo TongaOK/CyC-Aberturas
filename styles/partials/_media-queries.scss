@@ -9,3 +9,9 @@
         @content;
     }
 }
+
+@mixin netbook {
+    @media screen and (max-width: 991px) {
+        @content;
+    }
+}
