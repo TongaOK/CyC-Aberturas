@@ -2,13 +2,13 @@
 #carouselExampleControls{
         left: 0;right: 0;
         margin: auto;
-        width: 60%;
+        width: 70%;
         
         @include tablet {
-                width: 70%;
+                width: 90%;
         }
         @include mobile {
-                width: 80%;
+                width: 90%;
         }
 }
 /*Fin Carousel*/

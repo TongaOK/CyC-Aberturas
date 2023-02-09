@@ -38,7 +38,7 @@ body {
 p {
   color: white;
   font-family: "Montserrat", sans-serif;
-  text-align: justify;
+  text-align: center;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -59,16 +59,16 @@ p {
   left: 0;
   right: 0;
   margin: auto;
-  width: 60%;
+  width: 70%;
 }
 @media screen and (max-width: 768px) {
   #carouselExampleControls {
-    width: 70%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 576px) {
   #carouselExampleControls {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -94,6 +94,7 @@ form .sexo {
 }
 form .boton {
   color: rgb(0, 0, 0);
+  background-color: rgb(143, 22, 1);
 }
 
 /*Fin Formulario*/
@@ -124,7 +125,7 @@ form .boton {
   background-color: rgba(143, 22, 1, 0.226);
 }
 .container .overlay .caption {
-  font-size: 2rem;
+  font-size: 1rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -187,16 +188,13 @@ form .boton {
   align-items: center;
 }
 .box_container .box1 {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 .box_container .box2 {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
 }
 .box_container .box3 {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 .box_container .box {
   background-color: rgb(143, 22, 1);
