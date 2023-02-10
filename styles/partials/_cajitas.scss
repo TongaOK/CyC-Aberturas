@@ -32,7 +32,7 @@
         }
         @include mobile {
             @include tamanos(100px, 100px);
-            font-size: large;
+            font-size: medium;
         }
     }
 }

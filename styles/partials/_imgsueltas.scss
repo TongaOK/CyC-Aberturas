@@ -1,0 +1,15 @@
+.imagencontainer {
+    text-align: center;
+}
+
+.imagensuelta {
+    display: inline-block;
+    width: 70%;
+    
+    @include tablet {
+            width: 90%;
+    }
+    @include mobile {
+            width: 90%;
+    }
+}

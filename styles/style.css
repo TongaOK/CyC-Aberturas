@@ -54,6 +54,25 @@ p {
 }
 
 /*Fin Texto*/
+.imagencontainer {
+  text-align: center;
+}
+
+.imagensuelta {
+  display: inline-block;
+  width: 70%;
+}
+@media screen and (max-width: 768px) {
+  .imagensuelta {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .imagensuelta {
+    width: 90%;
+  }
+}
+
 /*Inicio Carousel*/
 #carouselExampleControls {
   left: 0;
@@ -100,6 +119,7 @@ form .boton {
 /*Fin Formulario*/
 /*Inicio Galeria*/
 .container {
+  overflow: hidden;
   padding: 5px;
 }
 .container .thumbnail:hover {
@@ -217,6 +237,6 @@ form .boton {
   .box_container .box {
     width: 100px;
     height: 100px;
-    font-size: large;
+    font-size: medium;
   }
 }/*# sourceMappingURL=style.css.map */
